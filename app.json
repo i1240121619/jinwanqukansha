@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/douyin/getuserinfo",
+    "pages/douyin/index",
+    "pages/douyin/apply",
+    "pages/douyin/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}
