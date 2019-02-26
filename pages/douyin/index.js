@@ -11,6 +11,24 @@ Page({
 
     page: 1,
     list:[],
+
+    more: false,
+    showComment:false,
+  },
+  close() {
+    this.setData({
+      showComment:false
+    })
+  },
+  open() {
+    this.setData({
+      showComment:true
+    })
+  },
+  more() {
+    this.setData({
+      more: !this.data.more
+    })
   },
   scrollTouchstart (e) {
     let py = e.touches[0].pageY;
@@ -26,13 +44,15 @@ Page({
       endy: py,
     })
     console.log(e.changedTouches[0].pageY, d.starty);
-    if (py - d.starty > d.critical && d.scrollindex > 0) {
+    if (py - d.starty > d.critical && d.scrollindex > 0) { // 上拉
       this.setData({
-        scrollindex: d.scrollindex - 1
+        scrollindex: d.scrollindex - 1,
+        more: false
       })
-    } else if (py - d.starty < -(d.critical) && d.scrollindex < this.data.totalnum - 1) {
+    } else if (py - d.starty < -(d.critical) && d.scrollindex < this.data.totalnum - 1) { // 下拉
       this.setData({
-        scrollindex: d.scrollindex + 1
+        scrollindex: d.scrollindex + 1,
+        more: false
       })
     }
     this.setData({
@@ -42,7 +62,7 @@ Page({
   },
   loadPageData () {
     let that = this;
-    app.globalData.tool.http('/api_wx/api/get_clip.php?page='+ that.data.page +'&rows=' + rows, 'GET', {}, data => {
+    app.globalData.tool.http('/api_wx/api/get_clip.php?vod_id=1&user_id=1&page='+ that.data.page +'&rows=' + rows, 'GET', {}, data => {
       if (data.code === 1) {
         that.setData({
           list: data.data

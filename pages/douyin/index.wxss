@@ -12,10 +12,12 @@ page{
   justify-content:first baseline;
 }
 .container-fill{
+  position: relative;
   height: 100%;
   overflow: hidden;
 }
 .scroll-fullpage{
+  position: relative;
   height: 100%;
 }
 .section{
@@ -89,12 +91,16 @@ video{
 
 .content{
   position: absolute;
-  bottom: 100rpx;
+  bottom: 120rpx;
   width: 100%;
   color: #ffffff;
   padding-left: 30rpx;
   padding-right: 160rpx;
+  padding-bottom: 30rpx;
+  padding-top: 30rpx;
   box-sizing: border-box;
+  background: rgba(0,0,0,0.8);
+  border-radius:20rpx 20rpx 0 0;
 }
 .vod_name_douban_score{
   height: 50rpx;
@@ -118,11 +124,123 @@ video{
   line-height: 66rpx;
 }
 .vod_content{
-  max-height: 265rpx;
   font-size: 34rpx;
   overflow: hidden;
   text-overflow: ellipsis;
   display:-webkit-box;
   -webkit-box-orient:vertical;
-  -webkit-line-clamp:4;
+  -webkit-line-clamp:2;
+}
+
+.vod_content.active{
+  -webkit-line-clamp:16;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top:1px solid rgba(255, 255, 255, 0.3);
+}
+.footer .release{
+  width: 180rpx;
+  height: 120rpx;
+  margin: 0 auto;
+}
+.footer .release image{
+  width: 180rpx;
+  height: 120rpx;
+}
+
+.comment{
+  background: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius:20rpx 20rpx 0 0;
+  z-index: 3;
+}
+.comment-head{
+  text-align: center;
+  font-size: 30rpx;
+  font-weight: bold;
+  padding: 30rpx 0 35rpx 0;
+}
+.comment-gb{
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 30rpx;
+  right: 40rpx;
+}
+.comment-gb image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.comment-item{
+  margin-top: 30rpx;
+  margin-bottom: 55rpx;
+  position: relative;
+}
+.comment-scroll{
+  max-height: 950rpx;
+  padding: 0 30rpx 0rpx 30rpx;
+  box-sizing: border-box;
+}
+.comment-item-head{
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.comment-item-head image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+.comment-item-content{
+  padding: 0 80rpx 0 110rpx;
+}
+.comment-item-nickname{
+  font-size: 33rpx;
+  color: #828387;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+  width: 450rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.comment-item-content-xq{
+  font-size: 35rpx;
+}
+.comment-item-zan{
+  width: 70rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+.comment-item-zan image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.comment-item-zan .zan-text{
+  text-align: center;
+  margin-top: -10rpx;
+  font-size: 30rpx;
+  color: #a1a1a1;
+}
+.comment-item-content-xq-time{
+  color: #b7b7b9;
+  font-size: 33rpx;
+  padding-left: 10rpx;
+}
+.comment-item-h{
+  width: 100%;
+  height: 120rpx;
 }

@@ -1,7 +1,7 @@
 <view class="swiper-cont container-fill">
   <view class="scroll-fullpage" bindtouchstart="scrollTouchstart" bindtouchend="scrollTouchend">
     <block wx:for="{{list}}" wx:for-index="idx">
-      <view class="section {{scrollindex==idx?'active':''}}" wx:if='{{scrollindex==idx}}'>
+      <view class="section {{scrollindex == idx ? 'active' : ''}}" wx:if='{{scrollindex == idx}}'>
         <video src="{{item.vod_clip}}" binderror="videoErrorCallback" autoplay="{{true}}" controls="{{false}}" loop="{{true}}"></video>
         <view class="tools">
           <view class="tools-itme header-img" style="background:url('{{item.vod_pic}}');background-size: cover;">
@@ -10,28 +10,85 @@
               <view class="text">全片</view>
             </view>
           </view>
-          <view class="tools-itme xh">
-            <image src="/image/icon_home_like_before.png" bindtap="like"></image>
+          <view class="tools-itme xh" bindtap="like">
+            <image src="/image/icon_home_like_before.png"></image>
             <view class="text">1000</view>
           </view>
-          <view class="tools-itme pl">
-            <image  src='/image/b0q.png' bindtap="comment"></image>
+          <view class="tools-itme pl" bindtap="open">
+            <image  src='/image/b0q.png'></image>
             <view class="text">1w</view>
           </view>
-          <view class="tools-itme fx">
-            <image  src='/image/alc.png' bindtap="share"></image>
+          <view class="tools-itme fx" bindtap="share">
+            <image  src='/image/alc.png'></image>
             <view class="text">分享</view>
           </view>
         </view>
-        <view class="content">
+        <view class="content" bindtap="more">
           <view class="vod_name_douban_score">
             <view class="vod_name">{{item.vod_name}}</view>
             <view class="vod_douban_score">{{item.vod_douban_score}}</view>
             <view class="clear"></view>
           </view>
-          <view class="vod_content">{{item.vod_content}}</view>
+          <view class="vod_content {{more ? 'active' : ''}}">{{item.vod_content}}</view>
         </view>
       </view>
     </block>
+    <view class="footer">
+      <view class="release" bindtap="open"><image src="/image/aax.png" bindtap="release"></image></view>
+    </view>
+  </view>
+  <view class="comment" wx:if='{{showComment}}'>
+    <view class="comment-relative">
+      <view class="comment-head">5262条评论</view>
+      <view class="comment-gb" bindtap="close"><image src="/image/a_a.png" bindtap="release"></image></view>
+      <scroll-view class="comment-scroll" scroll-y>
+        <view class="comment-item">
+          <view class="comment-item-head"><image src="https://img3.doubanio.com/icon/up3174468-5.jpg"></image></view>
+          <view class="comment-item-content">
+            <view class="comment-item-nickname">代寻旧日时光</view>
+            <view class="comment-item-content-xq">上海电影节去看的这部编剧工坊，而且有幸买到了导演见面场。这部电影如果不了解背景的话，可能会觉得枯燥和不知所谓。电影结束后，导演的解释让我对电影的理解加深了一点，受制于对法国社会的背景知识有限，我并不能说自己理解很深，但这部电影讨论的问题其实具有普世意义...<text class="comment-item-content-xq-time">1分钟前</text></view>
+          </view>
+          <view class="comment-item-zan">
+            <image src="/image/aif.png"></image>
+            <view class="zan-text">1000</view>
+          </view>
+        </view>
+        <view class="comment-item">
+          <view class="comment-item-head"><image src="https://img3.doubanio.com/icon/up3174468-5.jpg"></image></view>
+          <view class="comment-item-content">
+            <view class="comment-item-nickname">代寻旧日时光</view>
+            <view class="comment-item-content-xq">上海电影节去看的这部编剧工坊，而且有幸买到了导演见面场。这部电影如果不了解背景的话，可能会觉得枯燥和不知所谓。电影结束后，导演的解释让我对电影的理解加深了一点，受制于对法国社会的背景知识有限，我并不能说自己理解很深，但这部电影讨论的问题其实具有普世意义...<text class="comment-item-content-xq-time">1分钟前</text></view>
+          </view>
+          <view class="comment-item-zan">
+            <image src="/image/aif.png"></image>
+            <view class="zan-text">100</view>
+          </view>
+        </view>
+        <view class="comment-item">
+          <view class="comment-item-head"><image src="https://img3.doubanio.com/icon/up3174468-5.jpg"></image></view>
+          <view class="comment-item-content">
+            <view class="comment-item-nickname">代寻旧日时光</view>
+            <view class="comment-item-content-xq">上海电影节去看的这部编剧工坊，而且有幸买到了导演见面场。这部电影如果不了解背景的话，可能会觉得枯燥和不知所谓。电影结束后，导演的解释让我对电影的理解加深了一点，受制于对法国社会的背景知识有限，我并不能说自己理解很深，但这部电影讨论的问题其实具有普世意义...<text class="comment-item-content-xq-time">1分钟前</text></view>
+          </view>
+          <view class="comment-item-zan">
+            <image src="/image/aif.png"></image>
+            <view class="zan-text">100</view>
+          </view>
+        </view>
+        <view class="comment-item">
+          <view class="comment-item-head"><image src="https://img3.doubanio.com/icon/up3174468-5.jpg"></image></view>
+          <view class="comment-item-content">
+            <view class="comment-item-nickname">代寻旧日时光</view>
+            <view class="comment-item-content-xq">上海电影节去看的这部编剧工坊，而且有幸买到了导演见面场。这部电影如果不了解背景的话，可能会觉得枯燥和不知所谓。电影结束后，导演的解释让我对电影的理解加深了一点，受制于对法国社会的背景知识有限，我并不能说自己理解很深，但这部电影讨论的问题其实具有普世意义...<text class="comment-item-content-xq-time">1分钟前</text></view>
+          </view>
+          <view class="comment-item-zan">
+            <image src="/image/aif.png"></image>
+            <view class="zan-text">100</view>
+          </view>
+        </view>
+        <view class="comment-item-h"></view>
+      </scroll-view>
+      <view class="comment-publish"></view>
+    </view>
   </view>
 </view>

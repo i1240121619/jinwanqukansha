@@ -2,49 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741ad0aa-eb8e-4ec3-b2f1-534efd796048" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/a7i.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/aie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/aif.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_API.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_API_HL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_component.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_component_HL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_find.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_find_HL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_index.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_index_HL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_my.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_my_HL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/icon_setting_HL.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/like.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/like_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/pause.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/play.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/reload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/share.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/image/talk.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/apply.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/apply.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/apply.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/apply.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/getuserinfo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/getuserinfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/getuserinfo.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/getuserinfo.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/douyin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/douyin/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/douyin/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/douyin/index.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/douyin/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/douyin/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/me.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/me.wxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/douyin/me.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/tool.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -58,23 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/douyin/index.js">
+      <file leaf-file-name="app.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+            <state relative-caret-position="190">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/douyin/index.wxml">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/douyin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="113" lean-forward="true" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="113" />
-              <folding>
-                <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#block#0;n#view#0;n#view#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -82,26 +43,20 @@
       <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/douyin/index.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+            <state relative-caret-position="-121">
+              <caret line="199" column="15" lean-forward="true" selection-start-line="199" selection-start-column="15" selection-end-line="199" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subject.wxml" pinned="false" current-in-tab="false">
-        <entry file="file://E:/douyin-miniapp/pages/douyin/subject.wxml">
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/douyin/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="subject.wxss" pinned="false" current-in-tab="false">
-        <entry file="file://E:/douyin-miniapp/pages/douyin/subject.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="123" column="17" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="123" selection-end-column="17" />
+            <state relative-caret-position="152">
+              <caret line="59" column="98" lean-forward="true" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#block#0;n#view#0;n#view#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +76,6 @@
       <find>controls</find>
       <find>onPageScroll</find>
       <find>video</find>
-      <find>scroll-fullpage</find>
       <find>container-fill</find>
       <find>section</find>
       <find>container</find>
@@ -136,6 +90,7 @@
       <find>serverPath</find>
       <find>app</find>
       <find>talk-footer</find>
+      <find>scroll-fullpage</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -148,15 +103,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pages/douyin/index.json" />
-        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/utils/api.js" />
         <option value="$PROJECT_DIR$/utils/ajax.js" />
         <option value="$PROJECT_DIR$/utils/tool.js" />
-        <option value="$PROJECT_DIR$/pages/douyin/index.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/app.wxss" />
-        <option value="$PROJECT_DIR$/pages/douyin/index.wxml" />
+        <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/douyin/index.wxss" />
+        <option value="$PROJECT_DIR$/pages/douyin/index.js" />
+        <option value="$PROJECT_DIR$/pages/douyin/index.wxml" />
       </list>
     </option>
   </component>
@@ -250,12 +205,12 @@
       <option name="presentableId" value="Default" />
       <updated>1551055701277</updated>
       <workItem from="1551055703459" duration="36263000" />
-      <workItem from="1551142154489" duration="19493000" />
+      <workItem from="1551142154489" duration="34487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55756000" />
+    <option name="totallyTimeSpent" value="70750000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -400,13 +355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -439,24 +387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://E:/douyin-miniapp/pages/douyin/subject.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/douyin-miniapp/pages/douyin/subject.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="123" column="17" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="123" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/douyin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -467,17 +401,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/douyin-miniapp/pages/douyin/subject.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="57" column="46" lean-forward="true" selection-start-line="57" selection-start-column="46" selection-end-line="57" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/douyin/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="115" column="19" lean-forward="true" selection-start-line="115" selection-start-column="19" selection-end-line="115" selection-end-column="19" />
+        <state relative-caret-position="-121">
+          <caret line="199" column="15" lean-forward="true" selection-start-line="199" selection-start-column="15" selection-end-line="199" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/douyin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/douyin/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="113" lean-forward="true" selection-start-line="6" selection-start-column="113" selection-end-line="6" selection-end-column="113" />
+        <state relative-caret-position="152">
+          <caret line="59" column="98" lean-forward="true" selection-start-line="59" selection-start-column="98" selection-end-line="59" selection-end-column="98" />
           <folding>
             <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#block#0;n#view#0;n#view#0;n#!!top" expanded="true" />
           </folding>
