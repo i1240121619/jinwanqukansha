@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/douyin/getuserinfo",
     "pages/douyin/index",
+    "pages/douyin/getuserinfo",
     "pages/douyin/apply",
     "pages/douyin/me"
   ],

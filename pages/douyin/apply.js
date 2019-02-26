@@ -1,68 +1,66 @@
-//获取应用实例
-const api = require('../../utils/api.js')
-const app = getApp()
-
+// pages/douyin/apply.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    title: null,
-    filePath: '/image/plus.png'
-  },
-  onLoad: function () {
-   
+
   },
 
-  bindKeyInput: function (e) {
-    this.setData({
-      subjectTitle : e.detail.value
-    })
+  /**
+   * 生命周期函数--监听页面加载
+   */
+  onLoad: function (options) {
+
   },
 
-  chooseImage: function (e) {
-    var that = this;
+  /**
+   * 生命周期函数--监听页面初次渲染完成
+   */
+  onReady: function () {
 
-    wx.chooseImage({
-      success: function (res) {
-        var tempFilePaths = res.tempFilePaths;
-        that.setData({
-          filePath: tempFilePaths[0]
-        })
-      }
-    })
   },
 
-  applySubject: function (e) {
-    var that = this;
-    var tempFilePath = this.data.filePath;
+  /**
+   * 生命周期函数--监听页面显示
+   */
+  onShow: function () {
 
-    if (tempFilePath == '/image/plus.png') {
-      wx.showToast({
-        title: "请选择图片"
-      })
-      return;
-    }
+  },
 
-    var title = that.data.subjectTitle;
-    if (title == null) {
-      wx.showToast({
-        title: "请描述下内容"
-      })
-      return;
-    }
+  /**
+   * 生命周期函数--监听页面隐藏
+   */
+  onHide: function () {
 
-    wx.showLoading({
-      title: '正在上传...',
-    })
-    // 发布说说
-    api.applySubject({
-      filePath: tempFilePath,
-      formData: {
-        title: title
-      },
-      success: function (data) {
-        wx.reLaunch({
-          url: 'subject',
-        })
-      }
-    })
+  },
+
+  /**
+   * 生命周期函数--监听页面卸载
+   */
+  onUnload: function () {
+
+  },
+
+  /**
+   * 页面相关事件处理函数--监听用户下拉动作
+   */
+  onPullDownRefresh: function () {
+
+  },
+
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+
+  },
+
+  /**
+   * 用户点击右上角分享
+   */
+  onShareAppMessage: function () {
+
   }
 })
